@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JohnApkMakerAI" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:buttonStyle">@style/NeonButton</item>
+    </style>
+
+    <style name="NeonButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/neon_purple</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
